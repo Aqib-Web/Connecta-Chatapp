@@ -1,20 +1,15 @@
-import './App.css'
-import Chat from './components/chat/Chat'
-import Detail from './components/detail/Detail'
-import List from './components/list/List'
+import "./App.css";
+import { Button } from "@/components/ui/button";
+import NewChatUi from "./components/NewChatUi";
 
 function App() {
-
   return (
     <>
-     
-     <div className="container">
-      <List/>
-      <Chat/>
-      <Detail/>
-    </div>
+      <div className="">
+        <NewChatUi />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
